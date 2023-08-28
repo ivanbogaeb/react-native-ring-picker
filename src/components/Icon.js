@@ -25,7 +25,7 @@ export const Icon = ({icon, onPress, styleIconText}) => {
             <Animated.View
                 style={[STYLES.icon, icon.styles, icon.position.getLayout(), getIconsTransformDynamicStyles()]}>
                 {icon.isShown &&
-                <View style={STYLES.iconContainer}>
+                <View style={[STYLES.iconContainer]}>
                     {icon.el}
                     <Text style={[STYLES.iconText, styleIconText]}>{icon.title}</Text>
                 </View>

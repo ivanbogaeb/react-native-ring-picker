@@ -1,5 +1,5 @@
-# react-native-ring-picker (React 18)
-This is a modified version of the ring-shaped wheel navigator/selector component for react native 18 with smooth native animations and infinite scroll. This modified version fixes a few peer dependency issues, and hopefully in the future, add more functionality to it.
+# react-native-ring-picker
+This is the ring-shaped wheel navigator/selector component for react native with smooth native animations and infinite scroll.
 
 ## View
 ![Plugin Preview](./assets/gif/ring-picker-preview.gif)
